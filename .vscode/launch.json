@@ -1,0 +1,49 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Hellow World Java Program",
+            "request": "launch",
+            "mainClass": "com.learning.kafkagettingstarted.Main",
+            "projectName": "kafka-getting-started"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "KafkaSimpleConsumer",
+            "request": "launch",
+            "mainClass": "com.learning.kafkagettingstarted.chapter5.KafkaSimpleConsumer",
+            "projectName": "kafka-getting-started"
+        },
+        {
+            "type": "java",
+            "name": "KafkaSimpleProducer",
+            "request": "launch",
+            "mainClass": "com.learning.kafkagettingstarted.chapter5.KafkaSimpleProducer",
+            "projectName": "kafka-getting-started"
+        },
+        {
+            "type": "java",
+            "name": "KafkaUseCaseConsumer",
+            "request": "launch",
+            "mainClass": "com.learning.kafkagettingstarted.chapter6.KafkaUseCaseConsumer",
+            "projectName": "kafka-getting-started"
+        },
+        {
+            "type": "java",
+            "name": "KafkaUseCaseProducer",
+            "request": "launch",
+            "mainClass": "com.learning.kafkagettingstarted.chapter6.KafkaUseCaseProducer",
+            "projectName": "kafka-getting-started"
+        }
+    ]
+}
